@@ -7,11 +7,13 @@ Vehicle has following properties.
 - type - This property have the following set of values
 	- Truck
 	- Sedan
+	- Van
 - color
 - make - This property have the following set of values
 	- DODGE, FORD, HONDA, HYUNDAI, CHEVROLET
 - year
 - towingCapacity - only truck requires this property
+- passengerCapacity - only van requires this property
 
 - msrp - The System gets the manufacturer’s suggested retail price from a third part library. MSRPProvider. This implements the following interface
 ```java
