@@ -20,7 +20,7 @@ Vehicle has the following properties.
 ```java
 public interface  MSRPProvider {
 	public double getMSRPForLargeVehicle(String make, int year); // For Trucks or Van
-	public double getMSRPForSmallVehicle(String make, int year); // For Sedan or hatch back
+	public double getMSRPForSmallVehicle(String make, int year); // For Sedan
 }
 ```
  
